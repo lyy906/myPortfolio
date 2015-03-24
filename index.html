@@ -191,6 +191,7 @@
         
       </div>
       <hr class="featurette-divider">
+
       <!-- close carousel -->
       <!-- open story -->
      
@@ -729,7 +730,9 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
           <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-   <script>            
+    <script src="jquery.bootstrap-autohidingnavbar.js"></script>
+   <script> 
+    $("div.navbar-fixed-top").autoHidingNavbar();           
       jQuery(document).ready(function() {
         var offset = 220;
         var duration = 500;
