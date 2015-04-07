@@ -1,0 +1,64 @@
+ @import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,600,700italic|Orbitron);
+         .highlight {
+               background-color: white;
+         }
+         
+         div#content.container {
+            margin-top: 100px;
+            /* background-color: mintcream; */ 
+         }
+         a {
+            color: #00FFFF;
+            text-decoration: blink;
+          }
+          
+          p#current_user {
+             color: #FFFF33;
+            text-decoration: blink;
+          }
+           p#current_room {
+             color: #FFFF33;
+            text-decoration: blink;
+          }
+         .carousel-caption {
+            top: 0;
+            bottom: auto;
+            left: -250px;
+        }
+        
+         body {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: peachpuff;
+            background-color: #222;
+          }
+          
+          .navbar-inverse {
+            background-color: #222;
+            border-color: coral;
+          }
+          
+          button, input, optgroup, select, textarea {
+               margin: 0;
+               color: #003366;
+             }
+         .modal-header {
+            min-height: 16.43px;
+            padding: 15px;
+            border-bottom: 1px solid #e5e5e5;
+            background-color: #003366;
+          }
+          .modal-body {
+            position: relative;
+            padding: 15px;
+            background-color: #003366;
+          }
+
+          .modal-footer {
+            padding: 15px;
+            text-align: right;
+            border-top: 1px solid #e5e5e5;
+            background-color: #003366;
+          }
+      </style>
